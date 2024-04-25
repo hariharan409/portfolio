@@ -1,8 +1,8 @@
 {
   "name": "hari-portfolio",
   "version": "0.1.0",
-  "homepage": "https://hariharan409.github.io/portfolio",
-  "private": true,
+  "homepage": "https://hariharan409.github.io/portfolio/",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
