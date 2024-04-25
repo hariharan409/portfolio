@@ -1,2 +1,2 @@
-# professional
-Projects under this repository are going to be related to the profession one's
+#profolio
+This proejct describes all about Harihara dhamodaran, a software developer
