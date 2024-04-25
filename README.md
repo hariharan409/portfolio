@@ -1,2 +1,1 @@
-#profolio
-This proejct describes all about Harihara dhamodaran, a software developer
+LET'S TAKE A TOUR TO MY PORTFOLIO. HOPE IT WOULD BE SIMPLE AND POWERFUL.
