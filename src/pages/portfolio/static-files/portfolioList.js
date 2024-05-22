@@ -164,3 +164,51 @@ exports.devEnvironmentList = [
         devEnvironment: "spring tool suite"
     }
 ];
+
+exports.workExperienceList = [
+    {
+        id: 1,
+        companyName: "keppel corporation limited",
+        workDuration: "11/2022 - present",
+        location: "singapore",
+        position: "mern stack developer",
+        contact: "Manikandan B(project manager) - +91 9944955332",
+        descriptionList: [
+            "In keppel I have been working on multiple projects from scratch. One project is vessel crew management system and the other project is rig care management",
+            "Designing a high level user interface using react library with the help of html,css & react bootstrap",
+            "Using react js design patterns with javascript to implement a reusable components",
+            "Using axios library for integrating http api",
+            "Using express js server side framework to managing a backend route and business logics",
+            "Using postgresql,mssql & stored procedures for performing crud operations on the database",
+            "Using nginx & load balancer for server hosting",
+            "Regularly participating code review with team to ensure code standards of both frontend and backend"
+        ]
+    },
+    {
+        id: 2,
+        companyName: "inforge technologies private limited",
+        workDuration: "04/2021 - 11/2022",
+        location: "coimbatore,tamilnadu",
+        position: "full stack developer",
+        contact: "Brindhan(project manager) - +91 9944955332",
+        descriptionList: [
+            "In inforge I was worked on multiple projects with different programming languages",
+            "One project called calm in crisis developed using flutter(ui sdk),express js(backend framework) & graphql(database). I have worked on both ui side as well as server side",
+            "Another project called aaj which is a erp for car auction company located in japan. This project was developed using java(spring boot),html,css,java script,jsp & mongo db",
+        ]
+    },
+    {
+        id: 3,
+        companyName: "560 degree solutions",
+        workDuration: "07/2020 - 04/2021",
+        location: "trichy,tamilnadu",
+        position: "java backend developer",
+        contact: "Ramesh(project manager) - +91 8870011560",
+        descriptionList: [
+            "In 560, I was started my career as a Java developer using spring MVC framework",
+            "As a junior developer. I had lot of experience of learning from the mistakes. Used those mistakes as oppurtunity to learn more",
+            "Developed more than 30 API'S and followed spring mvc flow for code standard",
+            "Used MYSQL database for CRUD operations"
+        ]
+    }
+]

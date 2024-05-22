@@ -31,6 +31,12 @@
     align-items: center;
 };
 
+.portfolio-profile-picture {
+    scale: 1;
+    box-shadow: 0.2px 0.2px 5px 0.2px rgba(0,0,0,0.1);
+    animation: profile-picture-animation 5s ease-in-out forwards;
+}
+
 .portfolio-section-two-portfolio-name {
     font-size: 8rem;
     font-family: Inter, sans-serif;
@@ -39,6 +45,11 @@
     font-weight: 700;
     text-align: center;
     text-transform: capitalize;
+
+    @media screen and (max-width: 840px) {
+        font-size: 3rem;
+        line-height: normal;
+    }
 };
 
 .portfolio-title-element {
@@ -48,6 +59,15 @@
     letter-spacing: 0.34px;
     font-weight: 700;
     text-transform: uppercase;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #002C54;
+
+    @media screen and (max-width: 840px) {
+        font-size: 1.5rem;
+        line-height: normal;
+    }
 };
 
 .portfolio-skills-element {
@@ -57,11 +77,14 @@
 };
 
 .portfolio-skills-element-item {
-    background-color: #B6BCC6;
+    background-color: #C5001A;
+    border-radius: 5px;
     text-align: center;
+    box-shadow: 0.1px 0.1px 10px 0.1px #000;
+    animation: item-list-animation 15s ease-in-out forwards infinite;
 
     & span {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         text-transform: uppercase;
         font-weight: 700;
         color: #FFF;
@@ -75,11 +98,14 @@
 };
 
 .portfolio-platform-element-item {
-    background-color: #B6BCC6;
+    background-color: #C5001A;
+    border-radius: 5px;
     text-align: center;
+    box-shadow: 0.1px 0.1px 10px 0.1px #000;
+    animation: item-list-animation 15s ease-in-out forwards infinite;
 
     & span {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         text-transform: uppercase;
         font-weight: 700;
         color: #FFF;
@@ -93,13 +119,46 @@
 };
 
 .portfolio-dev-environment-element-item {
-    background-color: #B6BCC6;
+    background-color: #C5001A;
+    border-radius: 5px;
     text-align: center;
+    box-shadow: 0.1px 0.1px 10px 0.1px #000;
+    animation: item-list-animation 2s ease-in-out forwards infinite;
 
     & span {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         text-transform: uppercase;
         font-weight: 700;
         color: #FFF;
     }
 };
+
+.portfolio-work-experience-element {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+}
+
+.portfolio-work-experience-element-item {
+    background-color: #C5001A;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 10px;
+    box-shadow: 0.1px 0.1px 10px 0.1px #000;
+}
+
+@keyframes profile-picture-animation {
+    0% {
+        rotate: 360deg;
+        box-shadow: none;
+        scale: 0.1;
+    }
+
+    90% {
+        scale: 0.3;
+    }
+}
+
+@keyframes item-list-animation {
+
+}
