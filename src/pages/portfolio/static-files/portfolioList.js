@@ -1,5 +1,4 @@
 
-
 exports.skillList = [
     {
         id       : 1,
@@ -212,3 +211,34 @@ exports.workExperienceList = [
         ]
     }
 ]
+
+exports.developerEcosystemList = [
+    {
+        id: 1,
+        ecosystemName: "stack overflow",
+        link: "https://stackoverflow.com/users/16240306/harizh",
+        ecosystemDescription: "A question-and-answer site for programming and coding issues, where developers can ask questions and share knowledge",
+        ecosystemImage: require("../../../assets/portfolio/introduction/stack-overflow-image.png")
+    },
+    {
+        id: 2,
+        ecosystemName: "linkedin",
+        link: "https://www.linkedin.com/in/harihara-dhamodaran-335a4b1bb/",
+        ecosystemDescription: "A professional networking site where developers can connect with colleagues, showcase their work experience, and find job opportunities.",
+        ecosystemImage: require("../../../assets/portfolio/introduction/linkedin-image.png")
+    },
+    {
+        id: 3,
+        ecosystemName: "github",
+        link: "https://github.com/hariharan409",
+        ecosystemDescription: "A platform for version control and collaboration, allowing developers to host and review code, manage projects, and build software together.",
+        ecosystemImage: require("../../../assets/portfolio/introduction/github-image.png")
+    },
+    {
+        id: 4,
+        ecosystemName: "npm",
+        link: "https://www.npmjs.com/~hariharadhamodaran",
+        ecosystemDescription: "A package manager for JavaScript, allowing developers to share and reuse code packages.",
+        ecosystemImage: require("../../../assets/portfolio/introduction/npm-image.jpg")
+    }
+];
