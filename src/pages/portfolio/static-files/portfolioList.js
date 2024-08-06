@@ -6,59 +6,60 @@ exports.skillList = [
     },
     {
         id       : 2,
-        skillName: "react hooks"
+        skillName: "react native"
     },
     {
         id       : 3,
-        skillName: "node js"
+        skillName: "react hooks"
     },
     {
         id       : 4,
-        skillName: "express js"
+        skillName: "node js"
     },
     {
         id       : 5,
-        skillName: "flutter"
+        skillName: "express js"
     },
     {
         id       : 6,
-        skillName: "java"
+        skillName: "flutter"
     },
     {
         id       : 7,
-        skillName: "spring mvc"
+        skillName: "java"
     },
     {
         id       : 8,
-        skillName: "spring boot"
+        skillName: "spring mvc"
     },
     {
         id       : 9,
-        skillName: "html"
+        skillName: "spring boot"
     },
     {
         id       : 10,
-        skillName: "css"
+        skillName: "figma ui/ux"
+        
     },
     {
         id       : 11,
-        skillName: "sass"
-    },
-    {
-        id       : 12,
         skillName: "java script"
     },
     {
-        id       : 13,
-        skillName: "jquery"
+        id       : 12,
+        skillName: "machine learning"
     },
     {
-        id       : 14,
+        id       : 13,
         skillName: "dart"
     },
     {
+        id       : 14,
+        skillName: "css/sass"
+    },
+    {
         id       : 15,
-        skillName: "struts"
+        skillName: "jquery"
     },
     {
         id       : 16,
@@ -127,40 +128,22 @@ exports.skillList = [
     {
         id       : 32,
         skillName: "react electron"
-    }
-];
-
-exports.platformList = [
-    {
-        id          : 1,
-        platformName: "web app development"
     },
     {
-        id          : 2,
-        platformName: "andriod app development"
+        id       : 33,
+        skillName: "html"
     },
     {
-        id          : 3,
-        platformName: "ios app development"
+        id       : 34,
+        skillName: "aws"
     },
     {
-        id          : 4,
-        platformName: "desktop app development"
-    }
-];
-
-exports.devEnvironmentList = [
-    {
-        id: 1,
-        devEnvironment: "visual studio code"
+        id       : 35,
+        skillName: "struts"
     },
     {
-        id: 2,
-        devEnvironment: "eclipse"
-    },
-    {
-        id: 3,
-        devEnvironment: "spring tool suite"
+        id       : 36,
+        skillName: "blockchain"
     }
 ];
 
@@ -173,14 +156,16 @@ exports.workExperienceList = [
         position: "mern stack developer",
         contact: "Manikandan B(project manager) - +91 9944955332",
         descriptionList: [
-            "In keppel I have been working on multiple projects from scratch. One project is vessel crew management system and the other project is rig care management",
-            "Designing a high level user interface using react library with the help of html,css & react bootstrap",
-            "Using react js design patterns with javascript to implement a reusable components",
-            "Using axios library for integrating http api",
-            "Using express js server side framework to managing a backend route and business logics",
-            "Using postgresql,mssql & stored procedures for performing crud operations on the database",
-            "Using nginx & load balancer for server hosting",
-            "Regularly participating code review with team to ensure code standards of both frontend and backend"
+            "At Keppel, I have been working on multiple projects from scratch, including a Vessel Crew Management System and a Rig Care Management System",
+            "My responsibilities encompass both frontend and backend development, ensuring robust and user-friendly applications.",
+            "Designed high-level user interfaces using the React library, enhanced with HTML, CSS, and React Bootstrap for responsive and intuitive user experiences.",
+            "Implemented reusable components by leveraging React.js design patterns and JavaScript, promoting code reusability and maintainability.",
+            "Integrated HTTP APIs using the Axios library to facilitate seamless data communication between frontend and backend services.",
+            "Managed backend routes and business logic using the Express.js server-side framework, ensuring efficient and secure data processing.",
+            "Performed CRUD operations on the database using PostgreSQL, MSSQL, and stored procedures, ensuring data integrity and optimal performance.",
+            "Deployed applications using NGINX and load balancers for server hosting, ensuring high availability and load distribution.",
+            "Regularly participated in code reviews with the team to ensure adherence to coding standards and best practices for both frontend and backend development.",
+            "Collaborated with cross-functional teams to deliver high-quality software solutions that meet user requirements and business goals."
         ]
     },
     {
@@ -191,9 +176,11 @@ exports.workExperienceList = [
         position: "full stack developer",
         contact: "Brindhan(project manager) - +91 9944955332",
         descriptionList: [
-            "In inforge I was worked on multiple projects with different programming languages",
-            "One project called calm in crisis developed using flutter(ui sdk),express js(backend framework) & graphql(database). I have worked on both ui side as well as server side",
-            "Another project called aaj which is a erp for car auction company located in japan. This project was developed using java(spring boot),html,css,java script,jsp & mongo db",
+            "At Inforge, I worked on multiple projects utilizing different programming languages and frameworks, demonstrating my versatility and adaptability as a developer.",
+            "Developed a comprehensive application using Flutter (UI SDK) for the frontend, Express.js (backend framework) for the server-side logic, and GraphQL for database interactions.",
+            "Contributed to both the UI and server-side development, ensuring a cohesive and efficient application.",
+            "Developed an ERP system for a car auction company located in Japan, using a tech stack comprising Java (Spring Boot), HTML, CSS, JavaScript, JSP, and MongoDB.",
+            "Worked extensively on both frontend and backend development, creating a seamless and robust platform for managing car auctions."
         ]
     },
     {
@@ -204,10 +191,11 @@ exports.workExperienceList = [
         position: "java backend developer",
         contact: "Ramesh(project manager) - +91 8870011560",
         descriptionList: [
-            "In 560, I was started my career as a Java developer using spring MVC framework",
-            "As a junior developer. I had lot of experience of learning from the mistakes. Used those mistakes as oppurtunity to learn more",
-            "Developed more than 30 API'S and followed spring mvc flow for code standard",
-            "Used MYSQL database for CRUD operations"
+            "At 560, I began my career as a Java Developer, working with the Spring MVC framework.",
+            "As a junior developer, I embraced every opportunity to learn and grow from my experiences and mistakes, turning challenges into valuable lessons.",
+            "Developed over 30 APIs, adhering to Spring MVC best practices and coding standards to ensure clean, maintainable, and efficient code.",
+            "Utilized MySQL for database operations, performing CRUD functionalities to manage and manipulate data effectively.",
+            "Gained substantial hands-on experience in Java development, enhancing my skills in backend development and understanding of the full software development lifecycle."
         ]
     }
 ]

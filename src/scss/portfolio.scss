@@ -9,7 +9,7 @@
 .portfolio-section-one {
     display: flex;
     justify-content: space-between;
-    font-size: small;
+    font-size: medium;
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 30px;
@@ -81,6 +81,11 @@
         font-size: 3rem;
         line-height: normal;
     }
+
+    @media screen and (max-width: 300px) {
+        font-size: 1rem;
+        line-height: normal;
+    }
 };
 
 .portfolio-title-element {
@@ -103,61 +108,19 @@
 
 .portfolio-skills-element {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     grid-gap: 30px;
 };
 
 .portfolio-skills-element-item {
-    background-color: #C5001A;
+    background-color: #000;
     border-radius: 5px;
     text-align: center;
     box-shadow: 0.1px 0.1px 10px 0.1px #000;
-    animation: item-list-animation 15s ease-in-out forwards infinite;
+    padding-block: 3px;
 
     & span {
-        font-size: 1.4rem;
-        text-transform: uppercase;
-        font-weight: 700;
-        color: #FFF;
-    }
-};
-
-.portfolio-platform-element {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-    grid-gap: 30px;
-};
-
-.portfolio-platform-element-item {
-    background-color: #C5001A;
-    border-radius: 5px;
-    text-align: center;
-    box-shadow: 0.1px 0.1px 10px 0.1px #000;
-    animation: item-list-animation 15s ease-in-out forwards infinite;
-
-    & span {
-        font-size: 1.4rem;
-        text-transform: uppercase;
-        font-weight: 700;
-        color: #FFF;
-    }
-};
-
-.portfolio-dev-environment-element {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-    grid-gap: 30px;
-};
-
-.portfolio-dev-environment-element-item {
-    background-color: #C5001A;
-    border-radius: 5px;
-    text-align: center;
-    box-shadow: 0.1px 0.1px 10px 0.1px #000;
-    animation: item-list-animation 2s ease-in-out forwards infinite;
-
-    & span {
-        font-size: 1.4rem;
+        font-size: 1rem;
         text-transform: uppercase;
         font-weight: 700;
         color: #FFF;

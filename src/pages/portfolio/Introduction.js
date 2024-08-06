@@ -16,14 +16,12 @@ const Introduction = () => {
             <h5 className="portfolio-section-two-portfolio-name mt-3">harihara dhamodaran k</h5>
             <span className="mt-3" style={{fontSize: "0.7rem",color: "#002C54",fontWeight: "600",textTransform: "uppercase",textDecorationLine: "underline",textAlign: "center"}}>"6 months of hardwork and focus can put you five years ahead in your life"</span>
             <span className="text-muted mt-3" style={{fontSize: "1.2rem",textAlign: "center"}}>
-                An experienced software engineer with a {(moment.duration(moment().diff(careerStartDate)).asYears()).toFixed(1) } years of working experience as a full stack developer.
-                Always focusing on new learnings and strict to code standards. Ability to handle multiple tasks and
-                creative approach to problem solving.
+                Experienced Full Stack Developer with over {(moment.duration(moment().diff(careerStartDate)).asYears()).toFixed(1) } years of expertise in developing robust web and mobile applications using modern technologies. Proficient in React JS, React Native, Node.js, Java Spring MVC, Spring Boot, and Dart. Skilled in creating dynamic, responsive user interfaces with JavaScript, Bootstrap, and Tailwind CSS. Experienced in UI/UX design with Figma, and adept at integrating and managing serverless applications on AWS. Beginner in machine learning and blockchain technologies, with a keen interest in Ethereum and smart contracts.
             </span>
             <div className="portfolio-section-two-ecosystem-element mt-3">
                 {(developerEcosystemList instanceof Array && developerEcosystemList.length > 0) &&
                     developerEcosystemList.map((ecosystem) => {
-                return  <div className="portfolio-section-two-ecosystem-element-item" style={{paddingTop: "20px",paddingBottom: "70px",position: "relative"}}>
+                return  <div key={ecosystem.id} className="portfolio-section-two-ecosystem-element-item" style={{paddingTop: "20px",paddingBottom: "70px",position: "relative"}}>
                             <h5 className="text-uppercase">{ecosystem.ecosystemName}</h5>
                             <img src={ecosystem.ecosystemImage} style={{width: "80px",borderRadius: "50%",marginBlock: "10px"}} />
                             <span style={{fontSize: "small",display: "block"}}>{ecosystem.ecosystemDescription}</span>
