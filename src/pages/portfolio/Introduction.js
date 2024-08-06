@@ -11,7 +11,7 @@ const Introduction = () => {
 
     return(
         <div className="portfolio-section-two">
-            <img src={HariImage} style={{height: "300px",width: "200px",objectFit: "contain"}} className="portfolio-profile-picture" />
+            <img src={HariImage} style={{height: "200px",width: "200px",objectFit: "cover"}} className="portfolio-profile-picture" />
             <h5 className="portfolio-section-two-portfolio-name">harihara dhamodaran k</h5>
             <span style={{fontSize: "0.7rem",color: "#002C54",fontWeight: "600",textTransform: "uppercase",textDecorationLine: "underline"}}>"6 months of hardwork and focus can put you five years ahead in your life"</span>
             <span className="text-muted" style={{fontSize: "1.5rem",textAlign: "center"}}>
@@ -19,12 +19,20 @@ const Introduction = () => {
                 Always focusing on new learnings and strict to code standards. Ability to handle multiple tasks and
                 creative approach to problem solving.
             </span>
-            <a className="align-self-start fs-6 text-uppercase mt-4" href="https://stackoverflow.com/users/16240306/harizh" target="_blank">
-                https://stackoverflow.com/users/16240306/harizh
-            </a>
-            <a className="align-self-start fs-6 text-uppercase mt-4" href="https://www.linkedin.com/in/harihara-dhamodaran-335a4b1bb/" target="_blank">
-                https://www.linkedin.com/in/harihara-dhamodaran-335a4b1bb/
-            </a>
+            <div>
+                <a className="align-self-start fs-6 text-uppercase mt-4" href="https://stackoverflow.com/users/16240306/harizh" target="_blank">
+                    stackoverflow
+                </a>
+                <a className="align-self-start fs-6 text-uppercase mt-4" href="https://www.linkedin.com/in/harihara-dhamodaran-335a4b1bb/" target="_blank">
+                    linkedin
+                </a>
+                <a className="align-self-start fs-6 text-uppercase mt-4" href="https://github.com/hariharan409" target="_blank">
+                    github
+                </a>
+                <a className="align-self-start fs-6 text-uppercase mt-4" href="https://www.npmjs.com/~hariharadhamodaran" target="_blank">
+                    npm
+                </a>
+            </div>
         </div>
     );
 }

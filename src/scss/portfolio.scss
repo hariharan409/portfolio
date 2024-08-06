@@ -34,7 +34,7 @@
 .portfolio-profile-picture {
     scale: 1;
     box-shadow: 0.2px 0.2px 5px 0.2px rgba(0,0,0,0.1);
-    animation: profile-picture-animation 5s ease-in-out forwards;
+    border-radius: 50%;
 }
 
 .portfolio-section-two-portfolio-name {
@@ -140,25 +140,9 @@
 }
 
 .portfolio-work-experience-element-item {
-    background-color: #C5001A;
+    background-color: #000;
     border-radius: 5px;
     color: #FFF;
     padding: 10px;
     box-shadow: 0.1px 0.1px 10px 0.1px #000;
-}
-
-@keyframes profile-picture-animation {
-    0% {
-        rotate: 360deg;
-        box-shadow: none;
-        scale: 0.1;
-    }
-
-    90% {
-        scale: 0.3;
-    }
-}
-
-@keyframes item-list-animation {
-
 }
