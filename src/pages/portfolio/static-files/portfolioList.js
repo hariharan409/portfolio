@@ -1,5 +1,4 @@
 
-
 exports.skillList = [
     {
         id       : 1,
@@ -7,59 +6,60 @@ exports.skillList = [
     },
     {
         id       : 2,
-        skillName: "react hooks"
+        skillName: "react native"
     },
     {
         id       : 3,
-        skillName: "node js"
+        skillName: "react hooks"
     },
     {
         id       : 4,
-        skillName: "express js"
+        skillName: "node js"
     },
     {
         id       : 5,
-        skillName: "flutter"
+        skillName: "express js"
     },
     {
         id       : 6,
-        skillName: "java"
+        skillName: "flutter"
     },
     {
         id       : 7,
-        skillName: "spring mvc"
+        skillName: "java"
     },
     {
         id       : 8,
-        skillName: "spring boot"
+        skillName: "spring mvc"
     },
     {
         id       : 9,
-        skillName: "html"
+        skillName: "spring boot"
     },
     {
         id       : 10,
-        skillName: "css"
+        skillName: "figma ui/ux"
+        
     },
     {
         id       : 11,
-        skillName: "sass"
-    },
-    {
-        id       : 12,
         skillName: "java script"
     },
     {
-        id       : 13,
-        skillName: "jquery"
+        id       : 12,
+        skillName: "machine learning"
     },
     {
-        id       : 14,
+        id       : 13,
         skillName: "dart"
     },
     {
+        id       : 14,
+        skillName: "css/sass"
+    },
+    {
         id       : 15,
-        skillName: "struts"
+        skillName: "jquery"
     },
     {
         id       : 16,
@@ -128,39 +128,105 @@ exports.skillList = [
     {
         id       : 32,
         skillName: "react electron"
+    },
+    {
+        id       : 33,
+        skillName: "html"
+    },
+    {
+        id       : 34,
+        skillName: "aws"
+    },
+    {
+        id       : 35,
+        skillName: "struts"
+    },
+    {
+        id       : 36,
+        skillName: "blockchain"
     }
 ];
 
-exports.platformList = [
-    {
-        id          : 1,
-        platformName: "web app development"
-    },
-    {
-        id          : 2,
-        platformName: "andriod app development"
-    },
-    {
-        id          : 3,
-        platformName: "ios app development"
-    },
-    {
-        id          : 4,
-        platformName: "desktop app development"
-    }
-];
-
-exports.devEnvironmentList = [
+exports.workExperienceList = [
     {
         id: 1,
-        devEnvironment: "visual studio code"
+        companyName: "keppel corporation limited",
+        workDuration: "11/2022 - present",
+        location: "singapore",
+        position: "mern stack developer",
+        contact: "Manikandan B(project manager) - +91 9944955332",
+        descriptionList: [
+            "At Keppel, I have been working on multiple projects from scratch, including a Vessel Crew Management System and a Rig Care Management System",
+            "My responsibilities encompass both frontend and backend development, ensuring robust and user-friendly applications.",
+            "Designed high-level user interfaces using the React library, enhanced with HTML, CSS, and React Bootstrap for responsive and intuitive user experiences.",
+            "Implemented reusable components by leveraging React.js design patterns and JavaScript, promoting code reusability and maintainability.",
+            "Integrated HTTP APIs using the Axios library to facilitate seamless data communication between frontend and backend services.",
+            "Managed backend routes and business logic using the Express.js server-side framework, ensuring efficient and secure data processing.",
+            "Performed CRUD operations on the database using PostgreSQL, MSSQL, and stored procedures, ensuring data integrity and optimal performance.",
+            "Deployed applications using NGINX and load balancers for server hosting, ensuring high availability and load distribution.",
+            "Regularly participated in code reviews with the team to ensure adherence to coding standards and best practices for both frontend and backend development.",
+            "Collaborated with cross-functional teams to deliver high-quality software solutions that meet user requirements and business goals."
+        ]
     },
     {
         id: 2,
-        devEnvironment: "eclipse"
+        companyName: "inforge technologies private limited",
+        workDuration: "04/2021 - 11/2022",
+        location: "coimbatore,tamilnadu",
+        position: "full stack developer",
+        contact: "Brindhan(project manager) - +91 9944955332",
+        descriptionList: [
+            "At Inforge, I worked on multiple projects utilizing different programming languages and frameworks, demonstrating my versatility and adaptability as a developer.",
+            "Developed a comprehensive application using Flutter (UI SDK) for the frontend, Express.js (backend framework) for the server-side logic, and GraphQL for database interactions.",
+            "Contributed to both the UI and server-side development, ensuring a cohesive and efficient application.",
+            "Developed an ERP system for a car auction company located in Japan, using a tech stack comprising Java (Spring Boot), HTML, CSS, JavaScript, JSP, and MongoDB.",
+            "Worked extensively on both frontend and backend development, creating a seamless and robust platform for managing car auctions."
+        ]
     },
     {
         id: 3,
-        devEnvironment: "spring tool suite"
+        companyName: "560 degree solutions",
+        workDuration: "07/2020 - 04/2021",
+        location: "trichy,tamilnadu",
+        position: "java backend developer",
+        contact: "Ramesh(project manager) - +91 8870011560",
+        descriptionList: [
+            "At 560, I began my career as a Java Developer, working with the Spring MVC framework.",
+            "As a junior developer, I embraced every opportunity to learn and grow from my experiences and mistakes, turning challenges into valuable lessons.",
+            "Developed over 30 APIs, adhering to Spring MVC best practices and coding standards to ensure clean, maintainable, and efficient code.",
+            "Utilized MySQL for database operations, performing CRUD functionalities to manage and manipulate data effectively.",
+            "Gained substantial hands-on experience in Java development, enhancing my skills in backend development and understanding of the full software development lifecycle."
+        ]
+    }
+]
+
+exports.developerEcosystemList = [
+    {
+        id: 1,
+        ecosystemName: "stack overflow",
+        link: "https://stackoverflow.com/users/16240306/harizh",
+        ecosystemDescription: "A question-and-answer site for programming and coding issues, where developers can ask questions and share knowledge",
+        ecosystemImage: require("../../../assets/portfolio/introduction/stack-overflow-image.png")
+    },
+    {
+        id: 2,
+        ecosystemName: "linkedin",
+        link: "https://www.linkedin.com/in/harihara-dhamodaran-335a4b1bb/",
+        ecosystemDescription: "A professional networking site where developers can connect with colleagues, showcase their work experience, and find job opportunities.",
+        ecosystemImage: require("../../../assets/portfolio/introduction/linkedin-image.png")
+    },
+    {
+        id: 3,
+        ecosystemName: "github",
+        link: "https://github.com/hariharan409",
+        ecosystemDescription: "A platform for version control and collaboration, allowing developers to host and review code, manage projects, and build software together.",
+        ecosystemImage: require("../../../assets/portfolio/introduction/github-image.png")
+    },
+    {
+        id: 4,
+        ecosystemName: "npm",
+        link: "https://www.npmjs.com/~hariharadhamodaran",
+        ecosystemDescription: "A package manager for JavaScript, allowing developers to share and reuse code packages.",
+        ecosystemImage: require("../../../assets/portfolio/introduction/npm-image.jpg")
     }
 ];
