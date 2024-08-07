@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import HariImage from "../../assets/portfolio/introduction/hari-image.jpg";
 import moment from "moment";
-import { developerEcosystemList } from "./static-files/portfolioList";
 
 const Introduction = () => {
     const [careerStartDate,setCareerStartDate] = useState(null);
@@ -18,20 +17,6 @@ const Introduction = () => {
             <span className="text-muted mt-3" style={{fontSize: "1.2rem",textAlign: "center"}}>
                 Experienced Full Stack Developer with over {(moment.duration(moment().diff(careerStartDate)).asYears()).toFixed(1) } years of expertise in developing robust web and mobile applications using modern technologies. Proficient in React JS, React Native, Node.js, Java Spring MVC, Spring Boot, and Dart. Skilled in creating dynamic, responsive user interfaces with JavaScript, Bootstrap, and Tailwind CSS. Experienced in UI/UX design with Figma, and adept at integrating and managing serverless applications on AWS. Beginner in machine learning and blockchain technologies, with a keen interest in Ethereum and smart contracts.
             </span>
-            <div className="portfolio-section-two-ecosystem-element mt-3">
-                {(developerEcosystemList instanceof Array && developerEcosystemList.length > 0) &&
-                    developerEcosystemList.map((ecosystem) => {
-                return  <div key={ecosystem.id} className="portfolio-section-two-ecosystem-element-item" style={{paddingTop: "20px",paddingBottom: "70px"}}>
-                            <h5 className="text-uppercase">{ecosystem.ecosystemName}</h5>
-                            <img src={ecosystem.ecosystemImage} style={{width: "80px",borderRadius: "50%",marginBlock: "10px"}} />
-                            <span style={{fontSize: "small",display: "block",minHeight: "80px"}}>{ecosystem.ecosystemDescription}</span>
-                            <a href={ecosystem.link} target="_blank">
-                                <button type="button" className="btn btn-primary p-2 mt-3 text-uppercase" style={{width: "130px",fontSize: "12px"}}>{ecosystem.ecosystemName}</button>
-                            </a>
-                        </div>
-                    })
-                }
-            </div>
         </div>
     );
 }
