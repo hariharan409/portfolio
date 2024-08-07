@@ -4,7 +4,7 @@ import { skillList } from "./static-files/portfolioList";
 const Skill = () => {
 
     return(
-        <div className="portfolio-section-four" style={{marginTop: "40px"}}>
+        <div className="portfolio-section-four" style={{marginTop: "20px"}}>
             <p className="portfolio-title-element">skills</p>
             <div className="portfolio-skills-element">
                 {

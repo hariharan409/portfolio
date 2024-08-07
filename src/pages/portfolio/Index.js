@@ -4,6 +4,8 @@ import Skill from "./Skill";
 import Header from "../header/Header";
 import Introduction from "./Introduction";
 import "../../scss/portfolio.scss";
+import DeveloperEcosystem from "./DeveloperEcosystem";
+import Academy from "./Academy";
 
 const HariPortFolio = () => {
     const currentYear = new Date().getFullYear();
@@ -12,6 +14,8 @@ const HariPortFolio = () => {
         <div className="hari-portfolio-root-element">
             <Header />
             <Introduction />
+            <DeveloperEcosystem />
+            <Academy />
             <WorkExperience />
             <Skill />
             <div style={{marginTop: "40px",textAlign: "center"}}>

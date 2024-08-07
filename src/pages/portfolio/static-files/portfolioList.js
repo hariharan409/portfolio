@@ -230,3 +230,24 @@ exports.developerEcosystemList = [
         ecosystemImage: require("../../../assets/portfolio/introduction/npm-image.jpg")
     }
 ];
+
+exports.academyList = [
+    {
+        id: 1,
+        collegeName: "bits pilani",
+        degree: "mtech in software engineering",
+        timePeriod: "2024 - 2026",
+        collegeDescription: "BITS Pilani consistently ranks among the top 10 engineering institutions in India, as per the National Institutional Ranking Framework (NIRF).",
+        collegeImage: require("../../../assets/portfolio/academy/bits-image.jfif"),
+        link: "https://www.bits-pilani.ac.in/",
+    },
+    {
+        id: 2,
+        collegeName: "ksriet",
+        degree: "bachelor of engineering",
+        timePeriod: "2014 - 2018",
+        collegeDescription: "The institute emphasizes research, innovation, and holistic development, making it a prominent choice for engineering aspirants.",
+        collegeImage: require("../../../assets/portfolio/academy/ksriet-image.jpg"),
+        link: "https://www.ksriet.ac.in/"
+    }
+];
