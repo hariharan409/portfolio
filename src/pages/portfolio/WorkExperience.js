@@ -4,7 +4,7 @@ import { workExperienceList } from "./static-files/portfolioList";
 const WorkExperience = () => {
 
     return(
-        <div className="portfolio-section-three" style={{marginTop: "40px"}}>
+        <div className="portfolio-section-three" style={{marginTop: "20px"}}>
             <p className="portfolio-title-element">work experience</p>
             <div className="portfolio-work-experience-element">
                 {
