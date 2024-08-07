@@ -9,7 +9,7 @@ const Academy = () => {
             <div className="academy-element">
                 {(academyList instanceof Array && academyList.length > 0) &&
                     academyList.map((academy) => {
-                return <div key={academy.id} className="academy-element-item" style={{paddingTop: "20px",paddingBottom: "70px"}}>
+                return <div key={academy.id} className="academy-element-item" style={{paddingTop: "20px",paddingBottom: "30px"}}>
                             <h5 className="text-uppercase">{academy.collegeName}</h5>
                             <img src={academy.collegeImage} style={{width: "80px",borderRadius: "50%",marginBlock: "10px"}} />
                             <span className="text-uppercase" style={{display: "block"}}>{academy.degree}</span>

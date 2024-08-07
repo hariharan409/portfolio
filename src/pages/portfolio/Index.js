@@ -19,7 +19,7 @@ const HariPortFolio = () => {
             <WorkExperience />
             <Skill />
             <div style={{marginTop: "40px",textAlign: "center"}}>
-                <span style={{textTransform: "uppercase",color: "blueviolet",fontSize: "12px",fontWeight: "bolder"}}>app version b-0.1.0 @{currentYear} owned by harish</span>
+                <span style={{textTransform: "uppercase",color: "blueviolet",fontSize: "12px",fontWeight: "bolder"}}>app version {process.env.REACT_APP_VERSION} @{currentYear} owned by harish</span>
             </div>
         </div>
     );
