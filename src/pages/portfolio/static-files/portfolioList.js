@@ -251,3 +251,14 @@ exports.academyList = [
         link: "https://www.ksriet.ac.in/"
     }
 ];
+
+exports.certificationList = [
+    {
+        id: 1,
+        learningPlatformName: "udemy",
+        certificationName: "Javascript for Logical Thinking and Problem Solving",
+        certificationLink: "https://www.udemy.com/certificate/UC-afa7d773-7f7b-4b45-a3e5-ee95c3e1497a/",
+        learningPlatformImage: require("../../../assets/portfolio/certification/udemy-image.png"),
+        issuedDate: "issued aug 2024"
+    }
+];

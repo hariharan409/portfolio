@@ -64,7 +64,7 @@
 
 .academy-element {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(4,1fr);
     column-gap: 20px;
     max-width: 100%;
     overflow-x: auto;
@@ -72,6 +72,28 @@
 
 .academy-element-item {
     min-width: 300px;
+    background-color: #000;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 10px;
+    box-shadow: 0.1px 0.1px 10px 0.1px #000;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.certification-element {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 20px;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.certification-element-item {
+    min-width: 300px;
+    max-height: 300px;
     background-color: #000;
     border-radius: 5px;
     color: #FFF;
