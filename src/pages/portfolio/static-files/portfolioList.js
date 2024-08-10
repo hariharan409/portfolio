@@ -260,5 +260,13 @@ exports.certificationList = [
         certificationLink: "https://www.udemy.com/certificate/UC-afa7d773-7f7b-4b45-a3e5-ee95c3e1497a/",
         learningPlatformImage: require("../../../assets/portfolio/certification/udemy-image.png"),
         issuedDate: "issued aug 2024"
+    },
+    {
+        id: 2,
+        learningPlatformName: "linkedin",
+        certificationName: "Git Intermediate Techniques",
+        certificationLink: "https://www.linkedin.com/learning/certificates/84e6ec7b8b39fcb84bbcb71fb42f260221e3dd18ea1861c29cf0326e65d449f4",
+        learningPlatformImage: require("../../../assets/portfolio/certification/Linkedin-Learning-logo.jpg"),
+        issuedDate: "issued aug 2024"
     }
 ];
