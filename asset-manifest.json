@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5a4e585f.css",
-    "main.js": "/portfolio/static/js/main.478129fe.js",
+    "main.js": "/portfolio/static/js/main.8061fb2d.js",
     "static/js/453.d084d8fa.chunk.js": "/portfolio/static/js/453.d084d8fa.chunk.js",
+    "static/media/Linkedin-Learning-logo.jpg": "/portfolio/static/media/Linkedin-Learning-logo.2cddb4ae1740a1cf661c.jpg",
     "static/media/linkedin-image.png": "/portfolio/static/media/linkedin-image.f291abfec32f0f22ed78.png",
     "static/media/hari-image.jpg": "/portfolio/static/media/hari-image.1851e57339c7984b84e3.jpg",
     "static/media/udemy-image.png": "/portfolio/static/media/udemy-image.12cb9fc3abf76ac9652d.png",
@@ -11,11 +12,11 @@
     "static/media/bits-image.jfif": "/portfolio/static/media/bits-image.317d747956b91565be1f.jfif",
     "index.html": "/portfolio/index.html",
     "main.5a4e585f.css.map": "/portfolio/static/css/main.5a4e585f.css.map",
-    "main.478129fe.js.map": "/portfolio/static/js/main.478129fe.js.map",
+    "main.8061fb2d.js.map": "/portfolio/static/js/main.8061fb2d.js.map",
     "453.d084d8fa.chunk.js.map": "/portfolio/static/js/453.d084d8fa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a4e585f.css",
-    "static/js/main.478129fe.js"
+    "static/js/main.8061fb2d.js"
   ]
 }
