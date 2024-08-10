@@ -268,5 +268,13 @@ exports.certificationList = [
         certificationLink: "https://www.linkedin.com/learning/certificates/84e6ec7b8b39fcb84bbcb71fb42f260221e3dd18ea1861c29cf0326e65d449f4",
         learningPlatformImage: require("../../../assets/portfolio/certification/Linkedin-Learning-logo.jpg"),
         issuedDate: "issued aug 2024"
+    },
+    {
+        id: 3,
+        learningPlatformName: "linkedin",
+        certificationName: "Coding Exercises: React.js",
+        certificationLink: "https://www.linkedin.com/learning/certificates/ed6566487f988f70e8d9cd7bdf82c565edf3013e8c0670a390e3f3f1b6224036?trk=share_certificate",
+        learningPlatformImage: require("../../../assets/portfolio/certification/Linkedin-Learning-logo.jpg"),
+        issuedDate: "issued aug 2024"
     }
 ];
