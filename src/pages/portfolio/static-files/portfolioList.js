@@ -276,5 +276,13 @@ exports.certificationList = [
         certificationLink: "https://www.linkedin.com/learning/certificates/ed6566487f988f70e8d9cd7bdf82c565edf3013e8c0670a390e3f3f1b6224036?trk=share_certificate",
         learningPlatformImage: require("../../../assets/portfolio/certification/Linkedin-Learning-logo.jpg"),
         issuedDate: "issued aug 2024"
+    },
+    {
+        id: 4,
+        learningPlatformName: "linkedin",
+        certificationName: "JavaScript: Under the Hood",
+        certificationLink: "https://www.linkedin.com/learning/certificates/1a254590562fdd8da474de477723f5a0ca5d45a0e283e0f3aa6461be8a35ea95?trk=share_certificate",
+        learningPlatformImage: require("../../../assets/portfolio/certification/Linkedin-Learning-logo.jpg"),
+        issuedDate: "issued aug 2024"
     }
 ];
