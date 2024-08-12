@@ -15,7 +15,7 @@ const PersonalProjects = () => {
                             <span style={{fontSize: "small",display: "block",textTransform: "capitalize"}}>{project.projectDescription}</span>
                             <ul className="mt-3" style={{textAlign: "start"}}>
                                 {
-                                    project.keyFeatureslist.map((feature,index) => {
+                                    project.keyFeatureslist?.map((feature,index) => {
                                         return(
                                             <li className="mt-2" key={index}>{feature}</li>
                                         );
