@@ -109,7 +109,6 @@
     scale: 1;
     border-radius: 50%;
     box-shadow: 0.1px 0.1px 10px 0.1px #000;
-    scale: 1;
 }
 
 .portfolio-section-two-portfolio-name {
@@ -136,6 +135,7 @@
 @keyframes name-animation {
     0% {
         scale: 0.2;
+        opacity: 0.3;
     }
 }
 
