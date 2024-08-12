@@ -120,6 +120,7 @@
     font-weight: 700;
     text-align: center;
     text-transform: capitalize;
+    animation: name-animation 4s alternate-reverse infinite;
 
     @media screen and (max-width: 840px) {
         font-size: 3rem;
@@ -131,6 +132,12 @@
         line-height: normal;
     }
 };
+
+@keyframes name-animation {
+    0% {
+        scale: 0.2;
+    }
+}
 
 .portfolio-title-element {
     font-size: 3rem;
