@@ -5,7 +5,7 @@ const PersonalProjects = () => {
 
     return(
         <div style={{marginTop: "20px"}}>
-            <p className="portfolio-title-element">personal projects</p>
+            <p className="portfolio-title-element">personal project</p>
             <div className="personal-project-element">
                 {(personalProjectList instanceof Array && personalProjectList.length > 0) &&
                     personalProjectList.map((project) => {

@@ -299,7 +299,8 @@ exports.personalProjectList = [
             "Comprehensive Data: Includes data on continents, countries, administrative divisions (states/provinces), and cities.",
             "Time Zones: Provides accurate time zone information for each country, including the utcTimeZone property with UTC offsets.",
             "Consistent Formatting: Data is structured in JSON format with fields such as 'name', 'code', and 'country', ensuring easy integration with various applications.",
-            "User Preferences: Maintains specific naming conventions as preferred by users, such as 'North Korea' and 'South Korea'."
+            "Ideal for developers building applications that require reliable and standardized geographical data.",
+            "Continuous updates and versioning, with the latest enhancement being the inclusion of utcTimeZone in version 0.0.7."
         ],
         githubRepoLink: "https://github.com/hariharan409/world-information"
     }
