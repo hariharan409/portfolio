@@ -286,3 +286,21 @@ exports.certificationList = [
         issuedDate: "issued aug 2024"
     }
 ];
+
+exports.personalProjectList = [
+    {
+        id: 1,
+        projectName: "world-information",
+        applicationType: "npm package",
+        projectDescription: "The world-information npm package is a comprehensive dataset based on the ISO 3166 standard, providing internationally recognized codes for continents, countries, states, and cities. The package is designed to simplify the process of retrieving standardized geographical data for global applications.",
+        technologyUsed: "javascript,node.js",
+        keyFeatureslist: [
+            "ISO 3166 Standard: Adheres to the internationally recognized ISO 3166 standard for country codes.",
+            "Comprehensive Data: Includes data on continents, countries, administrative divisions (states/provinces), and cities.",
+            "Time Zones: Provides accurate time zone information for each country, including the utcTimeZone property with UTC offsets.",
+            "Consistent Formatting: Data is structured in JSON format with fields such as 'name', 'code', and 'country', ensuring easy integration with various applications.",
+            "User Preferences: Maintains specific naming conventions as preferred by users, such as 'North Korea' and 'South Korea'."
+        ],
+        githubRepoLink: "https://github.com/hariharan409/world-information"
+    }
+];

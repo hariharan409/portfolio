@@ -7,6 +7,7 @@ import "../../scss/portfolio.scss";
 import DeveloperEcosystem from "./DeveloperEcosystem";
 import Academy from "./Academy";
 import Certification from "./Certification";
+import PersonalProjects from "./PersonalProject";
 
 const HariPortFolio = () => {
     const currentYear = new Date().getFullYear();
@@ -17,6 +18,7 @@ const HariPortFolio = () => {
             <Introduction />
             <DeveloperEcosystem />
             <Certification />
+            <PersonalProjects />
             <Academy />
             <WorkExperience />
             <Skill />
