@@ -21,7 +21,7 @@ const Introduction = () => {
                 Experienced Full Stack Developer with over {(moment.duration(moment().diff(careerStartDate)).asYears()).toFixed(1) } years of expertise in developing robust web and mobile applications using modern technologies. Proficient in React JS, React Native, Node.js, Java Spring MVC, Spring Boot, and Dart. Skilled in creating dynamic, responsive user interfaces with JavaScript, Bootstrap, and Tailwind CSS. Experienced in UI/UX design with Figma, and adept at integrating and managing serverless applications on AWS. Beginner in machine learning and blockchain technologies, with a keen interest in Ethereum and smart contracts.
             </span>
             <span className="text-muted mt-3" style={{fontSize: "1.1rem"}}>
-                <ul>
+                <ul style={{color:"#e400e5"}}>
                     <li>
                         I am currently working towards earning the <strong style={{color: "#000"}}>JavaScript Foundations Professional Certificate offered by Mozilla</strong>. This certification program provides a comprehensive understanding of core JavaScript concepts and best practices.
                     </li>

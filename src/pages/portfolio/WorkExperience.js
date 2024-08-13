@@ -16,7 +16,7 @@ const WorkExperience = () => {
                                 <span className="text-capitalize">{work.location}</span>
                                 <h3 className="text-capitalize m-0 mt-2">{work.position}</h3>
                                 <span className="text-capitalize">{work.workDuration}</span>
-                                <ul className="mt-3">
+                                <ul className="mt-3" style={{color:"#e400e5"}}>
                                 {
                                     work.descriptionList.map((desc,index) => {
                                         return(

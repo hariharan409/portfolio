@@ -13,7 +13,7 @@ const PersonalProjects = () => {
                             <h5 className="text-uppercase">{project.applicationType}</h5>
                             <h6 className="text-lowercase" style={{color: "greenyellow"}}>{project.projectName}</h6>
                             <span style={{fontSize: "small",display: "block"}}>{project.projectDescription}</span>
-                            <ul className="mt-3" style={{textAlign: "start"}}>
+                            <ul className="mt-3" style={{textAlign: "start",color: "#e400e5"}}>
                                 {
                                     project.keyFeatureslist?.map((feature,index) => {
                                         return(
