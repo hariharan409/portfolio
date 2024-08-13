@@ -264,13 +264,21 @@ exports.certificationList = [
     {
         id: 2,
         learningPlatformName: "linkedin",
+        certificationName: "Learning the JavaScript Language",
+        certificationLink: "https://www.linkedin.com/learning/certificates/2a56ed354117b8632e6f60da58051ac62d3a9f79bf534ffb072301bd5e9b7649",
+        learningPlatformImage: require("../../../assets/portfolio/certification/Linkedin-Learning-logo.jpg"),
+        issuedDate: "issued aug 2024"
+    },
+    {
+        id: 3,
+        learningPlatformName: "linkedin",
         certificationName: "Git Intermediate Techniques",
         certificationLink: "https://www.linkedin.com/learning/certificates/84e6ec7b8b39fcb84bbcb71fb42f260221e3dd18ea1861c29cf0326e65d449f4",
         learningPlatformImage: require("../../../assets/portfolio/certification/Linkedin-Learning-logo.jpg"),
         issuedDate: "issued aug 2024"
     },
     {
-        id: 3,
+        id: 4,
         learningPlatformName: "linkedin",
         certificationName: "Coding Exercises: React.js",
         certificationLink: "https://www.linkedin.com/learning/certificates/ed6566487f988f70e8d9cd7bdf82c565edf3013e8c0670a390e3f3f1b6224036?trk=share_certificate",
@@ -278,7 +286,7 @@ exports.certificationList = [
         issuedDate: "issued aug 2024"
     },
     {
-        id: 4,
+        id: 5,
         learningPlatformName: "linkedin",
         certificationName: "JavaScript: Under the Hood",
         certificationLink: "https://www.linkedin.com/learning/certificates/1a254590562fdd8da474de477723f5a0ca5d45a0e283e0f3aa6461be8a35ea95?trk=share_certificate",

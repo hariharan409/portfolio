@@ -12,7 +12,7 @@ const PersonalProjects = () => {
                 return  <div key={project.id} className="personal-project-element-item" style={{paddingTop: "20px",paddingBottom: "70px"}}>
                             <h5 className="text-uppercase">{project.applicationType}</h5>
                             <h6 className="text-lowercase" style={{color: "greenyellow"}}>{project.projectName}</h6>
-                            <span style={{fontSize: "small",display: "block",textTransform: "capitalize"}}>{project.projectDescription}</span>
+                            <span style={{fontSize: "small",display: "block"}}>{project.projectDescription}</span>
                             <ul className="mt-3" style={{textAlign: "start"}}>
                                 {
                                     project.keyFeatureslist?.map((feature,index) => {
