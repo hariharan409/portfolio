@@ -25,6 +25,9 @@ const Introduction = () => {
                     <li>
                         I am currently working towards earning the <strong style={{color: "#000"}}>JavaScript Foundations Professional Certificate offered by Mozilla</strong>. This certification program provides a comprehensive understanding of core JavaScript concepts and best practices.
                     </li>
+                    <li>
+                        I am in the process of <strong style={{color: "#000"}}>developing an open-source npm package for a customizable React sidebar component</strong>. This package aims to provide an easy-to-integrate sidebar solution with a variety of features to enhance the user interface of React applications.
+                    </li>
                 </ul>
             </span>
         </div>
