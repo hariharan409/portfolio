@@ -11,9 +11,9 @@ const Introduction = () => {
 
     return(
         <div className="portfolio-section-two">
-            <img src={HariImage} style={{height: "200px",width: "200px",objectFit: "cover"}} className="portfolio-profile-picture mt-4" />
+            <img src={HariImage} alt="profile-pic" style={{height: "200px",width: "200px",objectFit: "cover"}} className="portfolio-profile-picture mt-4" />
             <h5 className="portfolio-section-two-portfolio-name mt-3">harihara dhamodaran k</h5>
-            <span className="mt-3 text-primary" style={{fontSize: "0.7rem",fontWeight: "600",textTransform: "uppercase",textDecorationLine: "underline",textAlign: "center"}}>"6 months of hardwork and focus can put you five years ahead in your life"</span>
+            <span className="mt-3 text-primary portfolio-section-two-favourite-quote">"6 months of hardwork and focus can put you five years ahead in your life"</span>
             {/* <a className="text-primary mt-2" style={{fontSize: "0.55rem",textTransform: "uppercase",fontWeight: "bold",wordSpacing: "0.5px"}} href={`${process.env.PUBLIC_URL}/pdf/hari-updated-resume.pdf`} target="_blank">
                 click to view resume
             </a> */}
