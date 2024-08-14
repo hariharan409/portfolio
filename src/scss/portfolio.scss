@@ -135,7 +135,14 @@
     scale: 1;
     border-radius: 50%;
     box-shadow: 0.1px 0.1px 10px 0.1px #000;
+    animation: profile-pic-animation 4s alternate-reverse infinite;
 }
+
+@keyframes profile-pic-animation {
+    0% {
+        scale: 1.2;
+    }
+} 
 
 .portfolio-section-two-portfolio-name {
     font-size: 8rem;
@@ -171,14 +178,6 @@
     text-transform: uppercase;
     text-decoration-line: underline;
     text-align: center;
-    animation: favourite-quote-animation 4s alternate-reverse infinite;
-}
-
-@keyframes favourite-quote-animation {
-    0% {
-        scale: 1.1;
-        opacity: 0.8;
-    }
 }
 
 .portfolio-title-element {
