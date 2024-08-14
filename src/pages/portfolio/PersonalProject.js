@@ -1,5 +1,5 @@
 import React from "react";
-import { personalProjectList } from "./static-files/portfolioList";
+import { personalProjectList } from "../../static-files/portfolioList";
 
 const PersonalProjects = () => {
 
@@ -22,7 +22,7 @@ const PersonalProjects = () => {
                                     })
                                 }
                             </ul>
-                            <a href={project.githubRepoLink} target="_blank">{project.githubRepoLink}</a>
+                            <a href={project.githubRepoLink} target="_blank" rel="noreferrer">{project.githubRepoLink}</a>
                             <span className="mt-2" style={{fontSize: "small",display: "block",textTransform: "capitalize"}}>{project.technologyUsed}</span>
                         </div>
                     })

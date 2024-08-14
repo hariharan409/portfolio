@@ -1,5 +1,5 @@
 import React from "react";
-import { skillList } from "./static-files/portfolioList";
+import { skillList } from "../../static-files/portfolioList";
 
 const Skill = () => {
 

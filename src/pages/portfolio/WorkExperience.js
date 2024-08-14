@@ -1,5 +1,5 @@
 import React from "react";
-import { workExperienceList } from "./static-files/portfolioList";
+import { workExperienceList } from "../../static-files/portfolioList";
 
 const WorkExperience = () => {
 
