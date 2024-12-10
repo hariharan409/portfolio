@@ -8,6 +8,7 @@ import DeveloperEcosystem from "./DeveloperEcosystem";
 import Academy from "./Academy";
 import Certification from "./Certification";
 import PersonalProjects from "./PersonalProject";
+import ChatBot from "./ChatBot";
 
 const HariPortFolio = () => {
     const currentYear = new Date().getFullYear();
@@ -15,6 +16,7 @@ const HariPortFolio = () => {
     return(
         <div className="hari-portfolio-root-element">
             <Header />
+            <ChatBot />
             <Introduction />
             <DeveloperEcosystem />
             <Certification />

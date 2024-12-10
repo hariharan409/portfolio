@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/portfolio-server/node_modules
 
 # production
 /build
